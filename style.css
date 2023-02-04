@@ -16,3 +16,56 @@ nav {
     z-index: 1;
     border:1px solid red;
 }
+
+
+
+section {
+    background-color: aquamarine;
+    flex:1;
+}
+
+.navigation {
+    background-color: blueviolet;
+    flex:4;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+}
+
+
+nav .navigation ul li a {
+    padding: 20px;
+    display: block;
+    color: #ddd;
+    text-decoration: none;
+    background: #21263E;
+}
+
+
+nav ul li .dropdown {
+    display: none;
+}
+
+nav ul li:hover .dropdown {
+    display:flex;
+    flex-direction: column;
+    background-color: lightblue;
+}
+
+
+ul{
+    display: flex;
+    gap: 2em;
+    align-items: center;
+    justify-content:space-between;
+    list-style-type: none;
+
+}
+
+a {
+    color: white;
+    display: inline-block;    
+}
+
+
+
