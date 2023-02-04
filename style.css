@@ -1,12 +1,8 @@
 
 body{
-    margin: 0;
-    padding: 0;
     padding-bottom: 1000px;
     background-color: rgb(238, 156, 156);
 }
-
-
 nav {
     display: flex;
     width: 100%;
@@ -17,55 +13,53 @@ nav {
     border:1px solid red;
 }
 
-
-
 section {
     background-color: aquamarine;
     flex:1;
 }
 
 .navigation {
-    background-color: blueviolet;
-    flex:4;
-    display: flex;
-    justify-content:center;
-    align-items: center;
+    flex: 3;
+    background-color: lightsalmon;
+    border: 2px dotted blue;
 }
 
+.menu-list {
+    border: solid 3px yellow;
+    display: flex;
+    justify-content: center;
+}
 
-nav .navigation ul li a {
+nav .navigation ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    display: flex;
+}
+
+.navigation ul li a {
     padding: 20px;
     display: block;
     color: #ddd;
     text-decoration: none;
     background: #21263E;
+    border: solid 1px red;
+    text-align:center;
 }
 
-
-nav ul li .dropdown {
+.navigation ul li ul {
     display: none;
 }
 
-nav ul li:hover .dropdown {
-    display:flex;
-    flex-direction: column;
-    background-color: lightblue;
-}
-
-
-ul{
+.navigation ul li:hover ul {
     display: flex;
-    gap: 2em;
-    align-items: center;
-    justify-content:space-between;
-    list-style-type: none;
-
+    flex-direction: column;
+    text-align: center;
 }
 
-a {
-    color: white;
-    display: inline-block;    
+ul li a:hover {
+    background-color: #4c5dac;
+    text-align: center;
 }
-
 
 
