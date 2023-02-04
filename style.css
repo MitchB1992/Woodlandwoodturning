@@ -1,0 +1,18 @@
+
+body{
+    margin: 0;
+    padding: 0;
+    padding-bottom: 1000px;
+    background-color: rgb(238, 156, 156);
+}
+
+
+nav {
+    display: flex;
+    width: 100%;
+    position: fixed;
+    background-color: lightblue;
+    height: 70px;
+    z-index: 1;
+    border:1px solid red;
+}
