@@ -89,7 +89,7 @@ ul li a:hover {
         width: 100%;
         border-radius: 10px;
         text-align: center;
-        transition: 0.3s;
+        transition: 0.7s;
         box-shadow:
             0 10px 27px rgba(0, 0, 0, 0.05);
     }
@@ -116,6 +116,19 @@ ul li a:hover {
 
 
 
+/* closing menu */
+
+.hamburger.active .bar:nth-child(2) {
+    opacity: 0;
+}
+
+.hamburger.active .bar:nth-child(1) {
+    transform: translateY(8px) rotate(45deg);
+}
+
+.hamburger.active .bar:nth-child(3) {
+    transform: translateY(-8px) rotate(-45deg);
+}
 
 
 
