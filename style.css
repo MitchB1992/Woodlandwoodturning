@@ -1,7 +1,6 @@
 
 body{
     padding-bottom: 1000px;
-    background-color: rgb(238, 156, 156);
 }
 nav {
     display: flex;
@@ -13,21 +12,33 @@ nav {
     border:1px solid red;
 }
 
+
+htm{
+    margin:0;
+    padding:0;
+}
+
 section {
     background-color: aquamarine;
     flex:1;
 }
 
+
+#herobanner {
+    height:500px;
+    width:100%;
+    background-color: lightblue; 
+}
+
 .navigation {
     flex: 3;
     background-color: #21263E;
-    border: 2px dotted blue;
 }
 
 .menu-list {
-    border: solid 3px yellow;
     display: flex;
     justify-content: center;
+
 }
 
 nav .navigation ul {
@@ -35,6 +46,7 @@ nav .navigation ul {
     padding: 0;
     list-style-type: none;
     display: flex;
+    margin-top: 5px;
 }
 
 .navigation ul li a {
@@ -43,24 +55,29 @@ nav .navigation ul {
     color: #ddd;
     text-decoration: none;
     background: #21263E;
-    border: solid 1px red;
     text-align:center;
+    transition:0.5s;
 }
 
 .navigation ul li ul {
     display: none;
 }
 
+
+
+
 .navigation ul li:hover ul {
     display: flex;
     flex-direction: column;
     text-align: center;
+    
 }
 
 ul li a:hover {
     background-color: #4c5dac;
     text-align: center;
 }
+
 
 /* the code below this line is subject to change*/
 
@@ -99,7 +116,7 @@ ul li a:hover {
     }
 
     .nav-item {
-        margin: 2.5rem 0;
+        margin: 2.5rem;
     }
 
     .hamburger {
@@ -132,4 +149,53 @@ ul li a:hover {
 
 
 
+body {
+    margin:0px;
+}
+
+
+
+#herobanner {
+    height:700px;
+    width:100%;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    flex-direction:column;
+}
+
+
+.header {
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+h1{ 
+    font-size:30px;
+}
+
+.omen {
+    display:flex;
+    justify-content:space-around;
+    align-items:center;
+
+}
+
+#inputform {
+    width:620px;
+    height:30px;
+}
+
+button{
+    border:none;
+    height:30px;
+    width:120px;
+}
+
+#cars {
+    border:none;
+    height:30px;
+    width:100px;
+}
 
