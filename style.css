@@ -9,7 +9,6 @@ nav {
     background-color: #21263E;
     height: 70px;
     z-index: 1;
-    border:1px solid red;
 }
 
 
@@ -24,11 +23,6 @@ section {
 }
 
 
-#herobanner {
-    height:500px;
-    width:100%;
-    background-color: lightblue; 
-}
 
 .navigation {
     flex: 3;
@@ -56,7 +50,7 @@ nav .navigation ul {
     text-decoration: none;
     background: #21263E;
     text-align:center;
-    transition:0.5s;
+    transition:0.2s;
 }
 
 .navigation ul li ul {
@@ -76,6 +70,7 @@ nav .navigation ul {
 ul li a:hover {
     background-color: #4c5dac;
     text-align: center;
+    border-bottom:3px solid #08ffc5;
 }
 
 
@@ -162,8 +157,18 @@ body {
     justify-content:center;
     align-items:center;
     flex-direction:column;
+    width:100%;
+    background-attachment: fixed;
+    background-position: center; 
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-color: lightblue; 
+    background-image: url("images/woody-kelly-S2ob5zZSY9M-unsplash.jpg");
 }
 
+.one {
+    border: 1px solid white;
+}
 
 .header {
     display:flex;
@@ -172,7 +177,13 @@ body {
 }
 
 h1{ 
-    font-size:30px;
+    font-size:34px;
+    color:white;
+}
+
+h6{
+    color:white;
+    letter-spacing:2px;
 }
 
 .omen {
@@ -191,11 +202,39 @@ button{
     border:none;
     height:30px;
     width:120px;
+    box-shadow: 5px 10px #275f7a;
+    border:1px solid black;
+    
+
+}
+
+
+button:hover{
+    background-color:transparent;
+    cursor:pointer;
+    color:white;
+    position:relative;
+    bottom: 5px;
+    border: solid 1px white;
+
 }
 
 #cars {
     border:none;
     height:30px;
     width:100px;
+    
+    
 }
 
+#cars > option:nth-child(1):hover {
+    background-color: yellow;
+    color: black;
+}
+
+.info{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    flex-direction:column;
+}
