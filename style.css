@@ -157,7 +157,6 @@ body {
     justify-content:center;
     align-items:center;
     flex-direction:column;
-    width:100%;
     background-attachment: fixed;
     background-position: center; 
     background-repeat: no-repeat;
@@ -237,4 +236,31 @@ button:hover{
     justify-content:center;
     align-items:center;
     flex-direction:column;
+}
+
+#switch{
+    background-position: center; 
+    background-size:100%;
+    background-repeat: no-repeat;
+    background-image: url("images/thanos-pal-61TfyNIrWmI-unsplash.jpg");
+
+}
+
+#switch1 {
+    background-position: center;
+    background-size:900px;
+    background-repeat: no-repeat;
+    background-image: url("images/joshua-mayo-bmj1Vl77ZWM-unsplash.jpg");
+    margin:20px;
+}
+
+
+.tabs{
+    text-decoration:none;
+    font-size:25px;
+    
+}
+
+.tabs:hover {
+    background-color:white
 }
