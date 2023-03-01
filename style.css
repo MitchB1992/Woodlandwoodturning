@@ -270,3 +270,27 @@ button:hover{
 .tabs:hover {
     background-color:white
 }
+
+
+
+.section {
+    display: none;
+    width: 100%;
+    height: 200px;
+}
+
+#new-section {
+    background-color: firebrick;
+}
+
+#new-section-two {
+    background-color: purple;
+}
+
+#new-section-three {
+    background-color: blue;
+}
+
+#new-section-four {
+    background-color: yellow;
+}
